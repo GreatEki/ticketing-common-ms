@@ -9,7 +9,9 @@ export * from "./events/subjects";
 export * from "./events/listener/BaseListener";
 export * from "./events/publisher/BasePublisher";
 
-export * from "./events/listener/ticket-created-event";
-export * from "./events/listener/ticket-updated-event";
+export * from "./events/events/ticket-created-event";
+export * from "./events/events/ticket-updated-event";
+export * from "./events/events/order-created-event";
+export * from "./events/events/order-cancelled-event";
 
 export * from "./events/types/order-status";
